@@ -403,14 +403,16 @@ padding: 0 0.4em;
     text-decoration: none;
     color: black;
 }
-.colon
-{
 
-}
 .pied-page{
     display: flex;
     justify-content: space-around;
     background-color: lightgrey;
     border-radius: 1em;
     padding: 1em;
+}
+@media screen and (min-width:1160px) {
+  .chambre1 .logement,.chambre2 .logement{
+        height: 250px;
+    }
 }
